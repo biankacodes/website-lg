@@ -399,7 +399,8 @@ p {
 }
 .offer__info--empty {
   margin-top: 20px;
-  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
