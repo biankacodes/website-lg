@@ -368,10 +368,6 @@ p {
     margin-right: auto;
   }
 }
-.offer__info {
-  margin-left: auto;
-  margin-right: auto;
-}
 @media screen and (min-width: 400px) {
   .offer__info {
     max-width: 630px;
