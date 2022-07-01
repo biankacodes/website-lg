@@ -1,0 +1,42 @@
+@use 'colors';
+
+$font-base: 'Arial', sans-serif;
+$button-size: 15px;
+$primary-headline: 30px;
+$secondary-headline: 24px;
+$basic-font-size: 16px;
+$underline-padding: 3px;
+
+
+body {
+  font-family: $font-base;
+  font-size: $basic-font-size;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+h1 {
+font-size: $primary-headline;
+}
+
+h2 {
+font-size: $secondary-headline;
+}
+
+h3 {
+font-size: $basic-font-size;
+font-weight: bold;
+}
+
+a , a:visited {
+  text-decoration: none;
+  color: colors.$basic-text;
+}
+
+p {
+  color: colors.$basic-text;
+}

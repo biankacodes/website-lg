@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<header class="header">
+    <img src="/images/logo/Logo_12.svg" alt="logo" class="header__logo">
+
+    <ul class="header__menu">
+        <li class="header__link"><a href="/">Labuť Garden</a></li>
+        <li class="header__link"><a href="/kdo-u-nas-prodava/">Kdo u nás prodává</a></li>
+        <li class="header__link"><a href="/rezervace/">Rezervace</a></li>
+        <li class="header__link header__link--en" ><a href="/english/">EN</a></li>
+    </ul>
+</header>
+<body>
+
+{{ content | safe }}
+
+</body>
+
+<footer class="footer"> 
+    <div class="footer__flexbox">
+        <div class="footer__box footer__box--first-row"> 
+            <h3>Labuť Garden</h3> 
+            <p>Zítkova 5<br>
+                Litoměřice<br>
+                412 01<br>
+            <a href="https://www.google.com/maps/place/Labuť+Garden/@50.5348829,14.1327635,17z/data=!3m1!4b1!4m5!3m4!1s0x47097fe3e4a31025:0x51f699aa0370bea4!8m2!3d50.5348795!4d14.1349522">Navigovat</a></p> 
+        </div>
+        <div class="footer__box"> 
+            <h3>Rezervace na telefonu:</h3> 
+            <p><a href="tel:+420 728 890 766">+420 728 890 766</a><br>
+                (Bistro Rezavá)</p>
+        </div>
+        <div class="footer__box">
+            <h3>Provozovatel Labuť Garden</h3> 
+            <p>iStavitel, s.r.o., Mazurská 5 <br>
+                180 00 Praha, IČO: 28491343</p>
+        </div>
+        <div class="footer__box ">
+            <h3>Provozovatel Bistro Rezavá</h3> 
+            <p>Jan Stuchlý, Ulice X, <br>
+                410 02 Lovosice, IČO: 22334422</p>
+        </div>
+    </div>
+    <div class="footer__contacts"><a href="https://instagram.com/labut_garden"><img src="/images/logo/Logo_11.png" alt="logo" class="footer__social"></a> <a href="https://instagram.com/labut_garden"><img src="/images/logo/Logo_11.png" alt="logo" class="footer__social"></a> <a href="https://instagram.com/labut_garden"></a>
+    <p class="footer__link"> Chcete u nás stánek nebo foodtruck? <a class ="footer__link--action" href="#">Napište nám</a></p>  </div>
+</footer>
+</html>
