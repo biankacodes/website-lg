@@ -368,6 +368,10 @@ p {
     margin-right: auto;
   }
 }
+.offer__info {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (min-width: 400px) {
   .offer__info {
     max-width: 630px;
@@ -400,7 +404,6 @@ p {
 .offer__info--empty {
   margin-top: 20px;
   text-align: center;
-  justify-self: center;
 }
 
 .pattern-background {
