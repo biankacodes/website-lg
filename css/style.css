@@ -262,12 +262,13 @@ p {
 }
 .content__box {
   text-align: center;
-  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0 px;
 }
-@media screen and (min-width: 860px) {
-  .content__box {
-    padding: 20px;
-  }
+.content__first-row {
+  margin-top: 20px;
 }
 .content__opening-hours {
   list-style: none;
